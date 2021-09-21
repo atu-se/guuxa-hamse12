@@ -14,8 +14,15 @@ answer
 
 4. What happens if you run the server while the server is already running?
 answer 
-> it will remain waiting.
+> OSError
+Only one usage of each socket address is normally permitted
 
 5. What changes did you make to finish this assignment?
 
+ I changed or modified server.py
+
 6. What resources did you use to complete this assignemnt?  Make a Markdown list of web links below.
+>https://www.youtube.com/watch?v=nmzzeAvQHp8
+>https://www.youtube.com/watch?v=nmzzeAvQHp8
+>https://www.youtube.com/watch?v=SepyXsvWVfo
+>https://www.youtube.com/watch?v=bTThyxVy7Sk
