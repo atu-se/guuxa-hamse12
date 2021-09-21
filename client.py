@@ -1,7 +1,8 @@
 import socket
 
+
 HOST = '127.0.0.1'  # The server's hostname or IP address
-PORT = 1027        # The port used by the server
+PORT = 1027        # The por  t used by the server
 BUFFER_SIZE = 256
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -18,4 +19,3 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         amount_received += len(data)
         print( repr(data) )
     
-
